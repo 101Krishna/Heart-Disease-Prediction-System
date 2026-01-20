@@ -1,0 +1,36 @@
+Example 1 — Likely healthy (good baseline)
+
+Model inputs:
+age=44, sex=Male, cp=1, trestbps=120, chole=263, fbs=0, restecg=1, thalach=173, exang=0, old_peak=0.0, slope=2, ca=0, thal=2
+Recommended immediate vitals to record:
+BP: 120/78 mmHg
+HR: 72 bpm
+RR: 16 /min
+SpO2: 98%
+Example 2 — Mild / borderline (some risk factors)
+
+Model inputs:
+age=54, sex=Male, cp=2, trestbps=140, chole=239, fbs=0, restecg=1, thalach=160, exang=0, old_peak=1.2, slope=2, ca=0, thal=2
+Vitals:
+BP: 140/88 mmHg
+HR: 86 bpm
+RR: 18 /min
+SpO2: 97%
+Example 3 — Higher risk / abnormal (model likely predicts disease)
+
+Model inputs:
+age=63, sex=Male, cp=3, trestbps=145, chole=233, fbs=1, restecg=0, thalach=150, exang=0, old_peak=2.3, slope=0, ca=0, thal=1
+Vitals:
+BP: 150/92 mmHg
+HR: 95 bpm
+RR: 20 /min
+SpO2: 95%
+Example 4 — Concerning (older patient, multiple abnormal features)
+
+Model inputs:
+age=69, sex=Female, cp=3, trestbps=140, chole=239, fbs=0, restecg=1, thalach=151, exang=0, old_peak=1.8, slope=2, ca=2, thal=2
+Vitals:
+BP: 130/85 mmHg (or lower if in shock)
+HR: 102 bpm
+RR: 20–24 /min
+SpO2: 92–95% (if <90% treat as emergency)
