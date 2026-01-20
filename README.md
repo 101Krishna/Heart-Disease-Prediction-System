@@ -12,7 +12,6 @@ A machine learning-based web application for predicting the risk of heart diseas
 - [Project Structure](#project-structure)
 - [Model Details](#model-details)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🎯 Overview
 
